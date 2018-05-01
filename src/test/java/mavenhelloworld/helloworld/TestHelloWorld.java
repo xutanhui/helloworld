@@ -19,4 +19,9 @@ public class TestHelloWorld{
 		assertEquals("你好,java大爷!", person.sayHello());
 	}
 	
+	@Test
+	public void testEat() {
+		assertEquals("eat!eat!eat!",person.eat());
+	}
+	
 }
